@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Unique Ring Creator</title>
+  <label>Enter Template Name</label>
+  <input type="text" id="templateName" />
+  <br />
+  <label>Enter Documentation (Will appear in Siege Editor)</label>
+  <input type="text" id="docName" />
+
+  <br />
+  <label>Item Name/Screen Name</label>
+  <input type="text" id="screenName" />
+
+  <br />
+  <label>Select Inventory Icon</label>
+  <select id="iconSelect"></select>
+  <br />
+  <label>Item Level</label>
+  <input type="number" id="itemLevel" />
+  <br />
+  <button id="btnEnchantment">Add Enchantment</button>
+  <br />
+  <!-- generate option in js here -->
+  <div id="enchantmentParent"></div>
+  <br />
+  <button id="btnCode">Generate Code</button>
+  <br />
+  <p id="generatedCode"></p>
+</head>
+
+<body>
+  <script src="main.js"></script>
+</body>
+
+</html>
